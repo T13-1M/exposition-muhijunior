@@ -61,12 +61,12 @@
 /* Mobile */
 @media (max-width: 768px) {
     .Navbar{
-        height: 1.5rem;
+        height: 3rem;
     }
 
     .nav-links {
         position: fixed;
-        top: 3.5rem;
+        top: 2.5rem;
         right: 0;
         width: 100%;
         height: max-content;
