@@ -1,22 +1,52 @@
 [
     {
         "id": 1,
-        "title": "Podcast Sastra Modern",
-        "category": "Podcast",
+        "title": "Sistem Irigasi Pintar Berbasis IoT",
+        "description": "Prototipe sistem penyiraman tanaman otomatis yang menggunakan sensor kelembaban tanah dan terintegrasi dengan aplikasi mobile.",
+        "team": "Tim Sinergi ICT",
+        "date": "2025-10-01",
+        "technologies": ["Arduino", "IoT", "Jaringan"],
         "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop",
-        "description": "Program podcast membahas karya sastra Indonesia kontemporer",
-        "team": "Team A",
-        "date": "2024",
-        "technologies": ["React", "Tailwind"]
+        "category": "ict"
     },
     {
         "id": 2,
-        "title": "Teater Bahasa",
-        "category": "Drama",
-        "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=400&h=250&fit=crop",
-        "description": "Pertunjukan drama berbasis cerita rakyat Nusantara.",
-        "team": "Team B",
-        "date": "2024",
-        "technologies": ["Node.js", "Express"]
+        "title": "Podcast Dwi-Bahasa 'Mutiara Jogja'",
+        "description": "Serial podcast yang menyajikan cerita budaya lokal Yogyakarta dalam dua bahasa (Inggris dan Arab) untuk melatih kelancaran berbicara.",
+        "team": "Bahasa Ganesha",
+        "date": "2025-09-28",
+        "technologies": ["Audio Editing", "Scriptwriting"],
+        "image": "https://images.unsplash.com/photo-1581090700227-4c4c27a1d6a3?w=400&h=250&fit=crop",
+        "category": "bahasa"
+    },
+    {
+        "id": 3,
+        "title": "Purifikasi Air Menggunakan Nanomaterial",
+        "description": "Penelitian pengujian efektivitas material alami (arang aktif termodifikasi) sebagai filter nano untuk membersihkan air limbah rumah tangga.",
+        "team": "Tim Eksperimen Fisika",
+        "date": "2025-10-05",
+        "technologies": ["Kimia Dasar", "Analisis Data"],
+        "image": "https://images.unsplash.com/photo-1592496001020-5d98f08aa3f9?w=400&h=250&fit=crop",
+        "category": "sains"
+    },
+    {
+        "id": 4,
+        "title": "Aplikasi 'Muraja'ah Mandiri'",
+        "description": "Prototipe aplikasi mobile sederhana yang dilengkapi fitur perekam suara dan pengecekan hafalan mandiri (Muraja'ah) untuk siswa.",
+        "team": "Tahfidz Digital",
+        "date": "2025-09-20",
+        "technologies": ["Flutter", "Perekam Suara"],
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop",
+        "category": "tafidz"
+    },
+    {
+        "id": 5,
+        "title": "Digitalisasi Tari Tradisional",
+        "description": "Dokumentasi gerakan dan kostum tari tradisional Jawa dalam bentuk 3D Model dan video tutorial untuk pelestarian budaya.",
+        "team": "Tim Seni Budaya",
+        "date": "2025-10-15",
+        "technologies": ["Motion Capture", "3D Modeling", "Video Editing"],
+        "image": "https://images.unsplash.com/photo-1581090700227-4c4c27a1d6a3?w=400&h=250&fit=crop",
+        "category": "sbo"
     }
 ]

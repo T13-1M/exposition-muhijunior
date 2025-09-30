@@ -13,8 +13,18 @@ function loadProjects() {
 
 app.get("/api/projects", (req, res) => {
     const projects = loadProjects();
-    res.json(projects);
+    const { category } = req.query;
+
+    if (category) {
+        const filtered = projects.filter(
+        (p) => p.category.toLowerCase() === category.toLowerCase()
+        );
+        res.json(filtered);
+    } else {
+        res.json(projects);
+    }
 });
+
 
 app.get("/api/projects/:id", (req, res) => {
     const projects = loadProjects();
