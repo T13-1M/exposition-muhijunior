@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Podcast Sastra Modern",
+        "category": "Podcast",
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop",
+        "description": "Program podcast membahas karya sastra Indonesia kontemporer",
+        "team": "Team A",
+        "date": "2024",
+        "technologies": ["React", "Tailwind"]
+    },
+    {
+        "id": 2,
+        "title": "Teater Bahasa",
+        "category": "Drama",
+        "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=400&h=250&fit=crop",
+        "description": "Pertunjukan drama berbasis cerita rakyat Nusantara.",
+        "team": "Team B",
+        "date": "2024",
+        "technologies": ["Node.js", "Express"]
+    }
+]
