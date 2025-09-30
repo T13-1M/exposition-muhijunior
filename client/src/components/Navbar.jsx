@@ -16,11 +16,11 @@ const Navbar = () => {
             <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
                 <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
                 <li><Link to="/profile" onClick={toggleMenu}>Profile</Link></li>
-                <li><Link to="/ICT" onClick={toggleMenu}>ICT</Link></li>
-                <li><Link to="/Bahasa" onClick={toggleMenu}>Bahasa</Link></li>
-                <li><Link to="/Sains" onClick={toggleMenu}>Sains</Link></li>
-                <li><Link to="/SBO" onClick={toggleMenu}>SBO</Link></li>
-                <li><Link to="/Thafidz" onClick={toggleMenu}>Thafidz</Link></li>
+                <li><Link to="/ict" onClick={toggleMenu}>ICT</Link></li>
+                <li><Link to="/bahasa" onClick={toggleMenu}>Bahasa</Link></li>
+                <li><Link to="/sains" onClick={toggleMenu}>Sains</Link></li>
+                <li><Link to="/sbo" onClick={toggleMenu}>SBO</Link></li>
+                <li><Link to="/thafidz" onClick={toggleMenu}>Thafidz</Link></li>
             </ul>
             <div className="hamburger" onClick={toggleMenu}>
                 {menuOpen ? <X size={28} /> : <List size={28} />}
