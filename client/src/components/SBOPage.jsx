@@ -94,7 +94,7 @@ function SBOpage() {
                         <div key={project?.id} className="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl">
                             <div className="relative h-48 overflow-hidden">
                                 <div className="absolute top-4 left-4 z-10">
-                                    <span className="bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-md shadow-md">Sains Project</span>
+                                    <span className="bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-md shadow-md">{project?.tag}</span>
                                 </div>
                                 <img className="w-full h-full object-cover" src={project?.image || ''} alt={project?.title || 'project image'} />
                                 <div className="absolute inset-0 bg-black opacity-10" />

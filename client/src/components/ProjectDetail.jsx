@@ -15,7 +15,7 @@ function ProjectDetail({ project, onClose }) {
 
         <h2 className="text-2xl font-bold">{project.title}</h2>
         <span className="inline-block mt-2 px-3 py-1 bg-gray-100 rounded-lg text-sm text-gray-700">
-          {project.category}
+          {project.tag}
         </span>
 
         <img

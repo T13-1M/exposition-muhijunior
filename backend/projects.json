@@ -7,7 +7,8 @@
         "date": "2025-10-01",
         "technologies": ["Arduino", "IoT", "Jaringan"],
         "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop",
-        "category": "ict"
+        "category": "ict",
+        "tag": "ICT"
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "date": "2025-09-28",
         "technologies": ["Audio Editing", "Scriptwriting"],
         "image": "https://images.unsplash.com/photo-1581090700227-4c4c27a1d6a3?w=400&h=250&fit=crop",
-        "category": "bahasa"
+        "category": "bahasa",
+        "tag": "Bahasa"
     },
     {
         "id": 3,
@@ -27,7 +29,8 @@
         "date": "2025-10-05",
         "technologies": ["Kimia Dasar", "Analisis Data"],
         "image": "https://images.unsplash.com/photo-1592496001020-5d98f08aa3f9?w=400&h=250&fit=crop",
-        "category": "sains"
+        "category": "sains",
+        "tag": "Sains"
     },
     {
         "id": 4,
@@ -37,7 +40,8 @@
         "date": "2025-09-20",
         "technologies": ["Flutter", "Perekam Suara"],
         "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop",
-        "category": "tafidz"
+        "category": "tafidz",
+        "tag": "Tafidz"
     },
     {
         "id": 5,
@@ -47,6 +51,7 @@
         "date": "2025-10-15",
         "technologies": ["Motion Capture", "3D Modeling", "Video Editing"],
         "image": "https://images.unsplash.com/photo-1581090700227-4c4c27a1d6a3?w=400&h=250&fit=crop",
-        "category": "sbo"
+        "category": "sbo",
+        "tag": "SBO"
     }
 ]
