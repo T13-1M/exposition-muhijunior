@@ -19,7 +19,6 @@ function Thafidzpage() {
 
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
             <div className="mt-16 mb-6 flex flex-col items-center text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-red-600 to-red-800 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Flask size="32" color="#fff" />
@@ -27,11 +26,9 @@ function Thafidzpage() {
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Sains (Science)</h1>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">Penelitian dan eksperimen dalam bidang sains dan teknologi</p>
             </div>
-
             <div className="rounded-xl border bg-card text-card-foreground shadow mb-6">
                 <h2 className="font-semibold text-xl p-6 pt-2 pb-3">Tentang Kelas Sains</h2>
                 <p className="text-gray-600 leading-relaxed mb-6 px-6">Kelas Sains adalah salah satu program peminatan unggulan yang dirancang untuk siswa dengan minat dan bakat tinggi pada ilmu pengetahuan alam. Kelas ini dipersiapkan secara khusus untuk mencetak siswa dengan prestasi akademik tinggi di bidang Sains.</p>
-
                 <div>
                     <p className="font-semibold p-6 pt-2 pb-3">Kompetensi yang Dikembangkan</p>
                     <p className="text-gray-600 leading-relaxed mb-6 px-12">Pengembangan kompetensi di Kelas Sains tidak hanya mencakup penguasaan teori, tetapi juga aplikasi dan kemampuan berkompetisi:</p>
@@ -42,7 +39,6 @@ function Thafidzpage() {
                         <li>Proyek Inovasi: Siswa didorong untuk mengembangkan proyek-proyek berbasis Sains (seperti energi terbarukan atau alat peraga) yang mendorong inovasi praktis.</li>
                     </ul>
                 </div>
-
                 <div className="hello wolrd">
                     <p className="font-semibold p-6 pt-2 pb-3">Fasilitas</p>
                     <p className="text-gray-600 leading-relaxed mb-6 px-12 ">Untuk mendukung kegiatan praktikum, penelitian, dan pembelajaran yang berpusat pada eksplorasi, Kelas Sains didukung oleh:</p>
@@ -53,7 +49,6 @@ function Thafidzpage() {
                     </ul>
                 </div>
             </div>
-
             <div className="mb-12">
                 <h2 className="text-3xl mb-6 text-center md:text-5xl font-bold text-gray-900">Bidang Sains</h2>
                 <div className="grid items-center md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -87,12 +82,10 @@ function Thafidzpage() {
                     </div>
                 </div>
             </div>
-
             <div>
                 <div className="flex justify-between mb-6">
                     <h1 className="font-bold text-2xl">Proyek Siswa</h1>
                 </div>
-
                 <div className="grid md:grid-cols-2 gap-8">
                     {projects.map((project) => (
                         <div key={project?.id} className="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl">
@@ -103,7 +96,6 @@ function Thafidzpage() {
                                 <img className="w-full h-full object-cover" src={project?.image || ''} alt={project?.title || 'project image'} />
                                 <div className="absolute inset-0 bg-black opacity-10" />
                             </div>
-
                             <div className="p-6">
                                 <h2 className="text-xl font-bold text-gray-800 mb-2">{project?.title}</h2>
                                 <p className="text-gray-500 text-sm mb-6">{project?.description}</p>
@@ -121,7 +113,6 @@ function Thafidzpage() {
                     ))}
                 </div>
             </div>
-
             {selectedProject && <ProjectDetail project={selectedProject} onClose={() => setSelectedProject(null)} />}
         </div>
     );
