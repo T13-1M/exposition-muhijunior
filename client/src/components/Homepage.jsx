@@ -1,5 +1,6 @@
 import { ArrowRight, Trophy } from '@phosphor-icons/react';
 import axios from 'axios';
+import ProjectDetail from './ProjectDetail';
 import React, {useState, useEffect} from 'react';
 
 function Homepage() {
@@ -59,6 +60,7 @@ function Homepage() {
                     ))}
                     </div>
                 </div>
+                {selectedProject && <ProjectDetail project={selectedProject} onClose={() => setSelectedProject(null)} />}
             </div>
             <div className="py-16 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
