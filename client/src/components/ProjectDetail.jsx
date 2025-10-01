@@ -12,18 +12,15 @@ function ProjectDetail({ project, onClose }) {
         >
           <X size={24} />
         </button>
-
         <h2 className="text-2xl font-bold">{project.title}</h2>
         <span className="inline-block mt-2 px-3 py-1 bg-gray-100 rounded-lg text-sm text-gray-700">
           {project.tag}
         </span>
-
         <img
           src={project.image}
           alt={project.title}
           className="mt-4 rounded-lg w-full"
         />
-
         <div className="grid md:grid-cols-3 gap-6 mt-6">
           <div className="md:col-span-2">
             <h3 className="font-semibold text-lg">Deskripsi Proyek</h3>

@@ -42,7 +42,6 @@ function Homepage() {
                                 <img className="w-full h-full object-cover" src={project?.image || ''} alt={project?.title || 'project image'} />
                                 <div className="absolute inset-0 bg-black opacity-10" />
                             </div>
-
                             <div className="p-6">
                                 <h2 className="text-xl font-bold text-gray-800 mb-2">{project?.title}</h2>
                                 <p className="text-gray-500 text-sm mb-6">{project?.description}</p>
