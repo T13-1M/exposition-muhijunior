@@ -9,7 +9,7 @@ function ICTpage() {
 
     useEffect(() => {
         axios
-            .get('http://localhost:5000/api/projects?category=ICT')
+            .get('/api/projects?category=ICT')
             .then((res) => setProjects(res.data || []))
             .catch((err) => {
                 console.error('Failed to fetch projects:', err);

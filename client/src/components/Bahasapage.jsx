@@ -9,7 +9,7 @@ function Bahasapage() {
 
     useEffect(() => {
         axios
-            .get('http://localhost:5000/api/projects?category=Bahasa')
+            .get('/api/projects?category=Bahasa')
             .then((res) => setProjects(res.data || []))
             .catch((err) => {
                 console.error('Failed to fetch projects:', err);

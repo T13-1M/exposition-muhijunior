@@ -9,7 +9,7 @@ function Thafidzpage() {
 
     useEffect(() => {
         axios
-            .get('http://localhost:5000/api/projects?category=tafidz')
+            .get('/api/projects?category=tafidz')
             .then((res) => setProjects(res.data || []))
             .catch((err) => {
                 console.error('Failed to fetch projects:', err);
