@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
     });
 });
 
-app.get("/api/projects", (req, res) => {
+app.get("/projects", (req, res) => {
     try {
         const projects = loadProjects();
         const { category } = req.query;
@@ -44,7 +44,7 @@ app.get("/api/projects", (req, res) => {
     }
 });
 
-app.get("/api/projects/:id", (req, res) => {
+app.get("/projects/:id", (req, res) => {
     try {
         const projects = loadProjects();
         const projectId = parseInt(req.params.id);
