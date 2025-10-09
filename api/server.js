@@ -19,14 +19,14 @@ function loadProjects() {
     }
 }
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
     res.status(200).json({ 
         message: "Selamat datang di Serverless API Project!",
         endpoints: "/api/projects, /api/projects/:id"
     });
 });
 
-app.get("/projects", (req, res) => {
+app.get("/api/projects", (req, res) => {
     try {
         const projects = loadProjects();
         const { category } = req.query;

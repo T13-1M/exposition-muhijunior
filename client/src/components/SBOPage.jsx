@@ -6,10 +6,11 @@ import ProjectDetail from './ProjectDetail';
 function SBOpage() {
     const [projects, setProjects] = useState([]);
     const [selectedProject, setSelectedProject] = useState(null);
+    const API_BASE_URL = "https://muhijunior-expo-api.vercel.app/api/projects"
 
     useEffect(() => {
         axios
-            .get('/api/projects?category=SBO')
+            .get(`${API_BASE_URL}/api/projects?category=SBO`)
             .then((res) => setProjects(res.data || []))
             .catch((err) => {
                 console.error('Failed to fetch projects:', err);
