@@ -23,10 +23,10 @@ function Homepage() {
                 <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">SMP Muhammadiyah 1 Yogyakarta</h1>
                 <h2 className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">Expo Sekolah 2025 - Memamerkan Prestasi dan Inovasi Siswa</h2>
                 <div className="button-group">
-                    <a href="/profile" className="button button-dark">Lihat Profile</a>
+                    <a href="#cek_proyek" className="button button-dark">Lihat Profile</a>
                 </div>
             </div>
-            <div className="py-16 bg-white">
+            <div className="py-16 bg-white" id='cek_proyek'>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Proyek Unggulan</h1>
