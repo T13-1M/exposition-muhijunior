@@ -33,6 +33,8 @@ Proyek ini dibangun menggunakan arsitektur modular dengan pemisahan yang jelas a
 | **Deployment** | Vercel | Digunakan untuk hosting statis. |
 | **Basis Data** | Json (Sementara) | Penyimpanan data proyek dan pengguna, akan migrasi ke MySQL. |
 
+---
+
 ## ⚙️ Instalasi dan Setup
 
 Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal Anda.
