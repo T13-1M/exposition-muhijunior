@@ -85,10 +85,6 @@ Kami menyambut kontribusi dari semua anggota tim! Jika Anda menemukan *bug* atau
 4.  *Push* ke *branch*: `git push origin fitur/nama-fitur`
 5.  Ajukan *Pull Request* (PR) ke *branch* `main`.
 
-## 📜 Lisensi
-
-Proyek ini dilisensikan di bawah lisensi **[GANTI: Misalnya, MIT License atau lainnya]**. Lihat file `LICENSE` untuk detail lebih lanjut.
-
 ## 🧑‍💻 Tim Pengembang
 
 Proyek ini dikembangkan oleh **T13-1M**.
