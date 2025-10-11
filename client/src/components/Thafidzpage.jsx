@@ -6,11 +6,10 @@ import ProjectDetail from './ProjectDetail';
 function Thafidzpage() {
     const [projects, setProjects] = useState([]);
     const [selectedProject, setSelectedProject] = useState(null);
-    const API_BASE_URL = "https://muhijunior-expo-api.vercel.app/api/projects"
 
     useEffect(() => {
         axios
-            .get(`${API_BASE_URL}/api/projects?category=tafidz`)
+            .get("/api/projects?category=tafidz")
             .then((res) => setProjects(res.data || []))
             .catch((err) => {
                 console.error('Failed to fetch projects:', err);

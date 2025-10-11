@@ -10,7 +10,7 @@ function Thafidzpage() {
 
     useEffect(() => {
         axios
-            .get(`${API_BASE_URL}/api/projects?category=Sains`)
+            .get("/api/projects?category=Sains")
             .then((res) => setProjects(res.data || []))
             .catch((err) => {
                 console.error('Failed to fetch projects:', err);

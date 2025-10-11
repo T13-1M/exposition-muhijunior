@@ -60,4 +60,12 @@ app.get("/projects/:id", (req, res) => {
     }
 });
 
+if (require.main === module) {
+    const PORT = 5000;
+    app.listen(PORT, () => {
+        console.log(`server berjalan di port = http://localhost:${PORT}`);
+        console.log("tekan CTRL + C untuk menghentikan program");
+    });
+};
+
 module.exports = app;
